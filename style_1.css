@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+    font-size: 100%; 
+    background-image: url("fundo.png");
+    background-size: cover ;
+
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5px;
+    background-color: rgb(5, 18, 34);
+    
+   
+
+}
+
+.logo {
+    height: 30px;
+   
+  
+}
+
+
+
+.cabecalho_menu{
+    display: flex;
+    gap: 32px;
+  
+}
+
+
+     
+.cabecalho_menu_item{
+    font-family: 'Righteous', cursive;
+    color: rgb(202, 218, 243);
+    font-weight: 400;
+    font-size:18px;
+}
+
+.cabecalho_menu_item:hover{
+    color: rgb(253, 251, 94);
+
+    
+
+}
+
+
+    
+.conteudo{
+    border-top: 0.4px solid rgb(228, 226, 142);
+
+}
+
+.conteudo_principal_esquerdo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding-left:  150px;
+    
+}
+    
+.conteudo_principal_escrito{
+    display:flex;
+    flex-direction: column;
+    gap:32px;
+    margin-top: 30px;
+}
+
+.conteudo_principal_escrito_titulo{
+   
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 30px;
+    color: rgb(202, 218, 243)
+}
+
+.conteudo_principal_escrito_subtitulo{
+    
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 200;
+    padding-inline: 30px;
+    line-height: 1.7;
+    
+    
+
+}
+
+
+
+.conteudo_secundario_titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgb(202, 218, 243)
+
+}
+
+.conteudo_secundario_subtitulo{
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 200;
+    padding-inline: 30px;
+    line-height: 1.7;
+    
+
+}
+
+.quemsoueu{
+    font-family: 'Sarala', sans-serif;
+    font-size: 15px;
+    color: white;
+    font-weight: 200;
+    padding-inline: 30px;
+    line-height: 2;
+}
+
+.conteudo_principal_imagem_direita{
+    height: 220px;
+    width: 400px;
+    margin-top: 100px;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+
+.imagem_quem_sou{
+    height: 250px;
+    margin-top: 100px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 120px;
+   
+
+}
+
+.imagem_projetos{
+    height: 220px;
+    width: 400px;
+    margin-top: 110px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 120px;
+   
+
+}
+
+.conteudo_principal_escrito_quem_sou_eu{
+    display:flex;
+    flex-direction:column;
+    gap:32px;
+    margin-top: 00px;
+    align-items: flex-start;
+}
